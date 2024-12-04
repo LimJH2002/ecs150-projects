@@ -13,8 +13,10 @@
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
-  if (argc != 4) {
+int main(int argc, char *argv[])
+{
+  if (argc != 4)
+  {
     cerr << argv[0] << ": diskImageFile src_file dst_inode" << endl;
     cerr << "For example:" << endl;
     cerr << "    $ " << argv[0] << " tests/disk_images/a.img dthread.cpp 3" << endl;
@@ -28,6 +30,6 @@ int main(int argc, char *argv[]) {
   string srcFile = string(argv[2]);
   int dstInode = stoi(argv[3]);
   */
-  
+
   return 0;
 }

@@ -9,9 +9,10 @@
 
 using namespace std;
 
-
-int main(int argc, char *argv[]) {
-  if (argc != 4) {
+int main(int argc, char *argv[])
+{
+  if (argc != 4)
+  {
     cerr << argv[0] << ": diskImageFile parentInode entryName" << endl;
     return 1;
   }
